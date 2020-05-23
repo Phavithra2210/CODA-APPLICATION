@@ -1,0 +1,44 @@
+form {
+    border: 20px solid #d0d4d8;
+    height: 50%;
+      width: 600px;
+      margin: 0 auto;
+    vertical-align:center;
+    padding-top: 30px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding:20px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  h1{
+    margin:0 auto;
+  }
+
+  label{
+    padding:20px 20px;
+    margin: 20px 0;
+  }
+  .buttonHolder{ text-align: center; }
+  /* button {
+    border: none;
+    cursor: pointer;
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  } */
+
+  /* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+  }
+  
+  button {
+    margin:0 auto;
+    display:block;
+}
